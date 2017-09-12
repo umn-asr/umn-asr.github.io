@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# script/server: Launch the application and any extra required processes
+#                locally.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/update
+
+# boot the app and any other necessary processes.
+./bin/jekyll serve --watch
