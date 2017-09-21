@@ -20,7 +20,7 @@ Student Degree Progress (SDP) answers that important question. A data-pipeline a
 
 #### How Much Does This Class Cost?
 
-The Tuition And Fee Management System (TFMS) is the system-of-record for fees, tuition and other fees. Used across all campuses to make sure students pay the right amount for their classes.
+The Tuition And Fee Management System (TFMS) is the system-of-record for tuition and fees paid by students. Used across all campuses to make sure students pay the right amount for their classes.
 
 ----
 
