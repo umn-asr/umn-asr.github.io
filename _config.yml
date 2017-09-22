@@ -22,7 +22,9 @@ url: "https://umn-asr.github.io" # the base hostname & protocol for your site
 repostiory: "umn-asr/umn-asr.github.io"
 
 # Build settings
+excerpt_separator: <!--break-->
 markdown: kramdown
 theme: minima
+paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "vendor", "Gemfile", "Gemfile.lock", "bundle", ".bundle"]
 
