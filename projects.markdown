@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Projects
+subtitle: We do cool stuff
 ---
-
-# Projects
-## We do cool stuff
 
 ASR Custom Solutions has wide-ranging portfolio of Rails apps, Ruby gems, CLI tools and more. Some of our projects are:
 
