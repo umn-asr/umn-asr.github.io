@@ -1,11 +1,8 @@
 ---
 layout: page
 title: Jobs
+subtitle: We Want to Work with You
 ---
-
-# Jobs
-## We want to work with you
-
 ### Developer 3
 
 <a href="http://asr.umn.edu/">ASR</a> Custom Solutions is hiring a new developer and we want it to be you! We're looking for a developer ready to lead.

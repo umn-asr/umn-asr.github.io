@@ -1,9 +1,16 @@
 
 div, header, footer, section, address, nav, main { box-sizing: border-box; }
 
-html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+html { 
+-ms-text-size-adjust: 100%; 
+-webkit-text-size-adjust: 100%;
+font-family: "Raleway", Helvetica, "Helvetica Neue", "Future", Verdana, "Geneva", sans-serif;
+}
 
-body { margin: 0; }
+body { 
+  margin: 0; 
+  font-family: "Raleway", Helvetica, "Helvetica Neue", "Future", Verdana, "Geneva", sans-serif;
+}
 
 .visually-hidden { position: absolute; overflow: hidden; clip: rect(0, 0, 0, 0); width: 1px; height: 1px; margin: -1px; padding: 0; border: 0 none; }
 
@@ -11,7 +18,7 @@ body { margin: 0; }
 
 .printer { display: none; }
 
-#skipLinks a { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; color: #7a0019; font-family: Arial, sans-serif; font-size: 14px; }
+#skipLinks a { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; color: #7a0019; font-size: 14px; }
 #skipLinks a:focus { width: 110px; height: auto; background-color: white; border-bottom-right-radius: 0.4em; border-bottom-left-radius: 0.4em; padding: 0.2em; border: 1px solid #000; border-top: none; position: fixed; top: 0; left: 50%; margin-left: -55px; text-align: center; z-index: 9999; }
 
 @media screen and (max-width: 1152px) { #umnhf-h.umnhf, #umnhf-f.umnhf, #umnhf-alt.umnhf, #umnhf-uf.umnhf, #umnhf-h-ma, #umn-main { width: 100%; margin: 0; } }
@@ -105,8 +112,8 @@ body { margin: 0; }
 #umnhf-uf a:hover, #umnhf-uf a:active, #umnhf-uf a:focus { text-decoration: underline; }
 #umnhf-uf p { margin: 0; }
 #umnhf-uf p, #umnhf-uf a, #umnhf-uf li, #umnhf-uf h3 { text-decoration: none; color: #404d5b; }
-#umnhf-uf h2.umnhf-f-title { margin: 0 0 15px; padding: 16px 8px 16px 54px; text-transform: uppercase; color: #404d5b; border-bottom: 1px solid #dbdbdb; font-family: Helvetica, "Helvetica Neue", "Futura", Verdana, "Geneva", sans-serif; font-size: 16px; font-weight: normal; }
-#umnhf-uf h3.umnhf-f-title, #umnhf-uf p.umnhf-f-title { margin: 0; text-transform: uppercase; color: #404d5b; font-family: Helvetica, "Helvetica Neue", "Futura", Verdana, "Geneva", sans-serif; font-size: 14px; font-weight: bold; }
+#umnhf-uf h2.umnhf-f-title { margin: 0 0 15px; padding: 16px 8px 16px 54px; text-transform: uppercase; color: #404d5b; border-bottom: 1px solid #dbdbdb; font-size: 16px; font-weight: normal; }
+#umnhf-uf h3.umnhf-f-title, #umnhf-uf p.umnhf-f-title { margin: 0; text-transform: uppercase; color: #404d5b; font-size: 14px; font-weight: bold; }
 
 #umnhf-uf-ci, #umnhf-uf-sm { float: left; clear: both; padding: 0 0 0 54px; font-style: normal; }
 
@@ -148,9 +155,9 @@ body { margin: 0; }
 #umnhf-f .umnhf-f-cl { float: left; box-sizing: border-box; width: 25%; height: 190px; padding: 5px; }
 #umnhf-f #umnhf-f-myu { display: none; }
 #umnhf-f ul, #umnhf-f p { margin: 0 0 16px 0; padding: 0; list-style: none; color: #404d5b; }
-#umnhf-f .umnhf-f-title { text-transform: uppercase; color: #404d5b; font-family: Helvetica, "Helvetica Neue", "Futura", Verdana, "Geneva", sans-serif; }
-#umnhf-f h2.umnhf-f-title { margin: 0 -54px 15px -54px; padding: 16px 8px 16px 54px; text-transform: uppercase; color: #404d5b; border-bottom: 1px solid #dbdbdb; font-family: Helvetica, "Helvetica Neue", "Futura", Verdana, "Geneva", sans-serif; font-size: 16px; font-weight: normal; }
-#umnhf-f h3.umnhf-f-title { margin: 0; text-transform: uppercase; color: #404d5b; font-family: Helvetica, "Helvetica Neue", "Futura", Verdana, "Geneva", sans-serif; font-size: 14px; font-weight: bold; }
+#umnhf-f .umnhf-f-title { text-transform: uppercase; color: #404d5b; }
+#umnhf-f h2.umnhf-f-title { margin: 0 -54px 15px -54px; padding: 16px 8px 16px 54px; text-transform: uppercase; color: #404d5b; border-bottom: 1px solid #dbdbdb; font-size: 16px; font-weight: normal; }
+#umnhf-f h3.umnhf-f-title { margin: 0; text-transform: uppercase; color: #404d5b; font-size: 14px; font-weight: bold; }
 #umnhf-f small { display: block; padding: 5px 54px; text-align: center; font-size: 0.8rem; line-height: 1rem; }
 #umnhf-f small a:link, #umnhf-f small a:active, #umnhf-f small a:visited { color: #404d5b; text-decoration: underline; }
 
@@ -184,3 +191,11 @@ body { margin: 0; }
 @media all and (max-width: 609px) and (min-resolution: 192dpi) { #umnhf-f #umnhf-f-myu ul span { background: transparent url("../img/sprites/lock-search-g@2x.png") 0 0 no-repeat; background-size: 22px 34px; } }
 
 @media all and (max-width: 609px) { #umnhf-uf-ul ul { padding-bottom: 0; } }
+
+.bg-dark {
+  background-color: #7a0019!important;
+}
+
+.text-warning {
+  color: #ffcc33!important;
+}
