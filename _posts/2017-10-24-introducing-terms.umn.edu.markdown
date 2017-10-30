@@ -7,24 +7,28 @@ author: "Ian Whitney"
 
 We are pleased to announce a new JSON API, [http://terms.umn.edu](http://terms.umn.edu). As with our other APIs this is a read-only web service that provides easy access to public data.
 
-In this case the public data in question is, "What term is it today?" You might think this is an easy question to answer. But no!
+In this case the public data in question is, "What term is it today?" You might think this is an easy question to answer. But no! Read on to find out the surprising complexity.
 
 <!--break-->
 
-Work on this project began at [Campus Codefest 2017](http://umn.campuscodefest.org/events/39-campus-codefest-2017) and that was the first question we had to answer. We decided there were two ways to answer that question.
+Because we want this service to be used by a wide range of developers we needed to ensure that we were meeting their requirements. A perfect place to do this is at the U's annual hackathon, [Campus Codefest 2017](http://umn.campuscodefest.org/events/39-campus-codefest-2017), where folks from across the University collaborate to make the U a better place.
 
-1. The term that is active today.
-2. The term that began most recently.
+There was a lot of interest in this project, and we quickly had a group of interested folks. And that group quickly discovered that the simple question, "What term is it today?" could be interpreted to mean two different things.
 
-Why two ways? Well, there are gaps between terms, usually a few weeks. If today is August 20th, 2017 and the Summer term ended on August 18th, what term is it today?
+1. What term is actively occurring today?
+2. What term began most recently?
+
+What is the difference between these two questions? At the U there are gaps between terms, usually a few weeks. For example, if you're an Undergrad student at the Twin Cities, the Summer 2017 term ends on August 18th and the Fall term doesn't begin until September 5th.
+
+So, if today is August 20th, 2017 and the Summer term ended on August 18th, what term is it today?
 
 Fall term doesn't begin until September. So it's not Fall. But is it still Summer?
 
-For some people the answer was "No". For these folks it mattered if today's date falls within the term. We described this as the term being _Active_ 
+For some people the answer was "No, it is not Summer term." For these folks it mattered if today's date falls within the term. We described this as the term being _Active_ 
 
-But, for other people the answer was "Yes". For them it was Summer until Fall began. We described this as Summer being the _Latest_ term.
+But, for other people the answer was "Yes, it is Summer term." For them it was Summer until Fall began. We described this as Summer being the _Latest_ term.
 
-We didn't want to answer just one of these needs so our web service answers both.
+If our web service only knew about Active or Latest terms, then it would not work for all of the use cases on campus. And we didn't want that, so our web service knows about *both* Active and Latest terms.
 
 If you go to [http://terms.umn.edu/active/today](http://terms.umn.edu/active/today) you'll see all _Active_ terms for all University of Minnesota campuses. These are terms that are occurring right now.
 
