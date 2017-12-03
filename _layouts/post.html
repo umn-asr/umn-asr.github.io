@@ -2,6 +2,10 @@
 layout: default
 ---
 
+By: {{ page.author }}
+
+<hr />
+
 <article>
   {{ content | replace: '<!--break-->', '<a class="anchor" id="read-more"></a>' }}
 </article>
