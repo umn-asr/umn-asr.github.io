@@ -199,3 +199,8 @@ body {
 .text-warning {
   color: #ffcc33!important;
 }
+
+blockquote {
+  margin-left: 40px;
+  margin-right: 120px;
+}
