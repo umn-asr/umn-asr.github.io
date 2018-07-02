@@ -14,6 +14,8 @@ Also also, Confluent now has [their own Ansible playbooks that do SSL](https://g
 
 Ok, preamble done.
 
+<!--break-->
+
 At the end of the last post we had a working Kafka cluster using a default configuration in which all messages are sent as plaintext between cluster members and clients. If you're running Kafka on a network where you have no concerns about malicious actors looking at your network traffic this may be good enough. In our case this was not going to be good enough and we needed to use SSL.
 
 The official [Kafka documentation](http://kafka.apache.org/documentation/#security_ssl) includes an introduction to adding SSL, as do the [Confluent docs](https://docs.confluent.io/current/security.html). Those are both good starting points. But even after following the official guides as closely as I could I still ended up with a non-functioning cluster. After a failed attempt or two I found Stephane Maarek's and Gerd Koenig's class [Apache Kafka Security](https://www.udemy.com/apache-kafka-security). That class, along with some questions in the [Confluent Community Slack](https://launchpass.com/confluentcommunity), got us to a working solution that we've now automated in Ansible. In this post I'm going to lay out what my team did and explain our Ansible playbooks.
