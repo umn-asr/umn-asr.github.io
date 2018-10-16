@@ -12,11 +12,11 @@ Our team stores these in LastPass. When we need to access them though, we had to
 
 So, we made a Ruby gem to automate all this for us; [Lastpassify](https://github.com/umn-asr/lastpassify).
 
-Lastpassify is a commandline tool packaged as [a Ruby gem](https://rubygems.org/gems/lastpassify) that takes in an YAML ERB template file and outputs a populated YAML file. We primarily use it for our `database.yml` files.
-
-It requires [lastpass-cli](https://github.com/lastpass/lastpass-cli) and Ruby v2+ to be installed.
+Lastpassify is a commandline tool packaged as [a Ruby gem](https://rubygems.org/gems/lastpassify) that takes in an YAML ERB template file and outputs a populated YAML file. We primarily use it for our `database.yml` files. Now, what might've taken 20 minutes or more to fully populate a large config file by hand is done in milliseconds.
 
 ### Usage
+
+Lastpassify requires [lastpass-cli](https://github.com/lastpass/lastpass-cli) and Ruby v2+ to be installed.
 
 LastPassify expects an input of one YAML file to be processed and outputs one YAML file. The input file can be passed in as an argument at the commandline like so:
 
@@ -51,8 +51,6 @@ staging:
 
 Finally, Lastpassify strips out any YAML keys with production, staging or qat in their names. This is a security measure to ensure no prod or staging environment credentials sit on your local development machine unnecessarily.
 
-This can be overridden by passing in a `-s` (staging) or `-p` (prod) flag to Lastpassify, e.g.:
-
-`$ bundle exec lastpassify -p`
+This can be overridden by passing in a `-s` (staging) or `-p` (prod) flag to Lastpassify, e.g.: `$ bundle exec lastpassify -p`
 
 We hope you find it useful and appreciate any [pull requests](https://github.com/umn-asr/lastpassify/)!
