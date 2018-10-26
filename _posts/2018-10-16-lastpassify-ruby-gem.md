@@ -14,6 +14,8 @@ So, we made a Ruby gem to automate all this for us; [Lastpassify](https://github
 
 Lastpassify is a commandline tool packaged as [a Ruby gem](https://rubygems.org/gems/lastpassify) that takes in an YAML ERB template file and outputs a populated YAML file. We primarily use it for our `database.yml` files. Now, what might've taken 20 minutes or more to fully populate a large config file by hand is done in milliseconds.
 
+Besides efficiency improvements, using the gem has given security benefits as well. For example, having trust in the tool means that we're able to delete our credentials and repos when we are not working on the project. Not having the credentials on the developer machine adds to the security protecting the data behind our applications.
+
 ### Usage
 
 Lastpassify requires [lastpass-cli](https://github.com/lastpass/lastpass-cli) and Ruby v2+ to be installed.
