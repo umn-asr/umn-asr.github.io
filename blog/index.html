@@ -1,21 +1,21 @@
 ---
 layout: blog
 title: Blog
-subtitle: It's a Blog
+subtitle: Where we write about our work
 ---
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
+          </a>
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
         </h3>
         {% endif %}
-    </a>
     {{ post.excerpt }}
     {% capture content_words %}
       {{ post.content | number_of_words }}

@@ -25,7 +25,7 @@ repostiory: "umn-asr/umn-asr.github.io"
 excerpt_separator: <!--break-->
 markdown: kramdown
 theme: minima
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/" 
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "vendor", "Gemfile", "Gemfile.lock", "bundle", ".bundle", "lib"]
 
