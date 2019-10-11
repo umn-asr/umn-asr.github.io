@@ -1,0 +1,48 @@
+---
+layout: blog
+title: Talk
+subtitle: Where we share our talks
+---
+
+{% for talk in paginator.talks %}
+<div class="post-preview">
+        <h2 class="post-title">
+          <a href="{{ talk.url | prepend: site.baseurl }}">
+            {{ talk.title }}
+          </a>
+        </h2>
+        {% if talk.subtitle %}
+        <h3 class="post-subtitle">
+            {{ talk.subtitle }}
+        </h3>
+        {% endif %}
+    {{ talk.excerpt }}
+    {% capture content_words %}
+      {{ talk.content | number_of_words }}
+    {% endcapture %}
+    {% capture excerpt_words %}
+      {{ talk.excerpt | number_of_words }}
+    {% endcapture %}
+    {% if excerpt_words != content_words %}
+      <a href="{{ talk.url }}#read-more">Read More</a>
+    {% endif %} 
+    <p class="post-meta">Posted by {{ talk.author }} on {{ talk.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Talks</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Talks &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
