@@ -40,7 +40,7 @@ For this job we have funding for a salary range of 65,000 to 80,000.
 
 ### How to Apply
 
-Ready to apply? Great! Start at [the job posting](https://z.umn.edu/asr_dev2_external).
+Ready to apply? Great! Start at [the job posting](https://z.umn.edu/asr_ror_job_external)).
 
 Before you start, you should have:
 
