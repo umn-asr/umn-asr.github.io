@@ -75,7 +75,7 @@ Our work location will be flexible. You can work on campus, at home, or a mix.
 
 **Do I need to be in Minnesota?**
 
-You should be within commuting distance of Minneapolis, MN.
+You should be able to travel to Minneapolis, MN a few days per month.
 
 **How about visas or relocation funds?**
 
