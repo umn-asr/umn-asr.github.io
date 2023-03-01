@@ -19,7 +19,7 @@ _In your first week_ you'll meet the team and learn about our portfolio and our 
 
 _In your first month_ you'll be pairing with other members of the team, using test-driven development to deliver features. You'll help resolve problem tickets along with an experienced team member. And you'll attend some of the University's [coding meetups](http://code-people.umn.edu/) and [professional groups](https://campus-climate.umn.edu/get-involved#faculty-staff)
 
-_In your first quarter_ you'll learn how to write robust, fast tests in RSpec and Jest while pairing on Rails and JavaScript applications. You'll explore new technologies and meet the UMN IT community at events like [Hacker Hours](https://umnhackerhours.github.io), [Tech-People](http://tech-people.umn.edu), and [hackathons](http://umn.campuscodefest.org/).
+_In your first quarter_ you'll learn how to write robust, fast tests in RSpec and Jest while pairing on Rails and JavaScript applications. You'll explore new technologies and meet the UMN IT community at events.
 
 _In your first year_ you'll become an experienced pair programmer familiar with the full process of application development. You'll use [Ansible](https://www.ansible.com) and [Docker](https://www.docker.com) to manage infrastructure. You'll configure Continuous Integration and Delivery tools to test and deploy the features you and your pair wrote.
 
