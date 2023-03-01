@@ -60,7 +60,7 @@ If you have any questions while applying, look at the [Using the Job Application
 We use three interviews.
 
 1. A brief conversation over Zoom about your experience and interest in the job
-1. A panel interview with members of the Application Development team
+1. A panel interview with members of the Application Development team and one of our stakeholders
 1. Code reading and discussion with Application Development team members
 
 Oh, and we won't ask you to code anything on a whiteboard.
