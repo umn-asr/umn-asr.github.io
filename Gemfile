@@ -3,7 +3,7 @@ source "https://rubygems.org" do
 
   gem "minima"
 
-  gem "github-pages", group: :jekyll_plugins
+  gem "github-pages", "~> 228"
   gem "thor"
 
   group :development do
