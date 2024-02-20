@@ -4,7 +4,7 @@ title: Projects
 subtitle: We do cool stuff
 ---
 
-ASR Custom Solutions has wide-ranging portfolio of Rails apps, Ruby gems, CLI tools and more. Some of our projects are:
+ASR Application Development has a wide-ranging portfolio of Rails apps, Ruby gems, CLI tools and more. Some of our projects are:
 
 ### Student Degree Progress
 
@@ -26,9 +26,7 @@ The Tuition And Fee Management System (TFMS) is the system-of-record for tuition
 
 #### How Do I...?
 
-The One Stop website is how students across the entire UMN system get the answer the questions they need answered. ASR Custom Solutions' expertise led to a site that is useful, accessible and responsive.
-
-<img src="img/one_stop.jpg" />
+The One Stop website is how students across the entire UMN system get the answer the questions they need answered. ASR Application Development's expertise led to a site that is useful, accessible and responsive.
 
 ----
 
@@ -48,7 +46,7 @@ A hybrid application that uses Ember, Rails and web sockets to help students get
 
 Where possible we create public JSON endpoints to serve public data. Some examples:
 
-- [Term](http://terms.umn.edu/active/today) - What term is it today? 
+- [Term](http://terms.umn.edu/active/today) - What term is it today?
 - [Courses](https://courses.umn.edu/campuses/umnmo/terms/1175/courses.json) - What courses are offered by Campus and Term?
 - [Lib Ed](http://liberal-education-courses.umn.edu/) - What courses satisfy the campus' liberal education requirements?
 
